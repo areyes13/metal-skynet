@@ -26,9 +26,6 @@ songs <- midi %>%
 
 rm(midi)
 
-songs %>%
-  distinct(note, notename)
-
 # markov setup ------------------------------------------------------------
 # append note duration to pitch and set as note 'id'
 temp <- songs %>%
