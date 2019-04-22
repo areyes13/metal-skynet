@@ -6,7 +6,6 @@ setwd("R Projects/MIDI")
 library(tidyverse)
 library(tuneR)
 library(tidytext)
-library(janitor)
 library(markovchain)
 
 # find midi tracks
