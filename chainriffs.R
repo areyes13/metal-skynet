@@ -42,7 +42,7 @@ n <- 16
 # set seed for consistent results
 set.seed(666)
 
-# generate 1000 new RIFFS
+# generate new RIFFS
 for(i in 1:10){
   riffs <- c(riffs, 
              c(paste(markovchainSequence(n=n, markovchain=chain$estimate), collapse=' '))) 
